@@ -43,7 +43,7 @@ async function seedData () {
   await secondBook.save()
   await thirdBook.save()
 }
-// seedData();
+seedData();
 
 const PORT = process.env.PORT
 
